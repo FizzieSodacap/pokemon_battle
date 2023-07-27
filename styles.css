@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+
+
+
+/* for enemy pokemon */ 
+
+.enemyContainer {
+    display: inline-flex;
+    gap: 900px;
+
+}
+
+.enemyPokemon {
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+.enemyPokemonPicture {
+    width: 400px;
+    height: 400px;
+}
+
+
+/* My pokemon */
+
+.myPokemon {
+    display: flex;
+
+}
+
+.myPokemonPicture {
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.battlePokemon { 
+    height: 200px;
+    width: 200px;
+}
